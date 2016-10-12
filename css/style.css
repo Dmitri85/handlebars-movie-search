@@ -1,0 +1,22 @@
+body{
+	background: #999966;
+}
+
+#search-form{
+	margin: 0 auto;
+	text-align:center;
+	background:#9999CC;
+	width: 30%;
+	height: 60px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#target-movie{
+	width: 80%;
+	margin: 0 auto;
+	border-top: 1px dotted #CCC;
+}
+
+

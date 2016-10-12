@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Handlebars Templating</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		
+		<form id="search-form">
+		    <label>
+		      Search:
+		     <hr />
+		      <input type="text" id="search" />
+		      <button>Search</button>
+		    </label>
+	 	 </form>
+	
+	  <div id="target-movie">
+	
+	  </div>
+	
+	  <script type="text/template" id="movie-tmpl">
+	    {{#each Search}}
+	      <h1>{{Title}}</h1>
+	      <h2>{{Year}}</h2>
+	      <p>The thing has a type: {{Type}}</p>
+	      <img src="{{Poster}}" />
+	      <hr />
+	    {{/each}}
+	  </script>
+
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
